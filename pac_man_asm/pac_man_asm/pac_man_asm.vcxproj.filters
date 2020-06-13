@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{b31021ed-17b5-4cbe-a44b-f228d3743bf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\defines">
+      <UniqueIdentifier>{1ee12ce4-2794-45d7-a6eb-cb1fdda96dca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\game">
+      <UniqueIdentifier>{2d222507-aa17-44ac-b83b-c0be8929937f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ghost">
+      <UniqueIdentifier>{60c9c81f-1d5f-4154-8108-80f662b9a9d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pac man">
+      <UniqueIdentifier>{360e9c4e-c6bd-43c7-82df-c50e49d703ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\screen">
+      <UniqueIdentifier>{a5e57de2-0832-4b27-a476-cb918247112c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\sound">
+      <UniqueIdentifier>{8ef1129f-b349-49fe-ac01-7f7072d5e825}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\utils">
+      <UniqueIdentifier>{59b2fb51-d840-4901-9845-32582d54b4ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\win">
+      <UniqueIdentifier>{638e23e0-5d9c-4a0d-84ee-3296c469c2f0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="main.asm">
+      <Filter>src</Filter>
+    </MASM>
+    <MASM Include="WinApi.asm">
+      <Filter>src\win</Filter>
+    </MASM>
+    <MASM Include="Utils.asm">
+      <Filter>src\utils</Filter>
+    </MASM>
+    <MASM Include="Screen.asm">
+      <Filter>src\screen</Filter>
+    </MASM>
+    <MASM Include="Game.asm">
+      <Filter>src\game</Filter>
+    </MASM>
+    <MASM Include="Sound.asm">
+      <Filter>src\sound</Filter>
+    </MASM>
+    <MASM Include="Position.asm">
+      <Filter>src\screen</Filter>
+    </MASM>
+    <MASM Include="EnergizerFlash.asm">
+      <Filter>src\game</Filter>
+    </MASM>
+    <MASM Include="GameMapFlash.asm">
+      <Filter>src\game</Filter>
+    </MASM>
+    <MASM Include="ScoreSprites.asm">
+      <Filter>src\game</Filter>
+    </MASM>
+    <MASM Include="Ghost.asm">
+      <Filter>src\ghost</Filter>
+    </MASM>
+    <MASM Include="GhostBlueTime.asm">
+      <Filter>src\ghost</Filter>
+    </MASM>
+    <MASM Include="GhostMazeLogic.asm">
+      <Filter>src\ghost</Filter>
+    </MASM>
+    <MASM Include="GhostMode.asm">
+      <Filter>src\ghost</Filter>
+    </MASM>
+    <MASM Include="GhostRelease.asm">
+      <Filter>src\ghost</Filter>
+    </MASM>
+    <MASM Include="PathMap.asm">
+      <Filter>src\ghost</Filter>
+    </MASM>
+    <MASM Include="BonusSymbol.asm">
+      <Filter>src\pac man</Filter>
+    </MASM>
+    <MASM Include="Level.asm">
+      <Filter>src\pac man</Filter>
+    </MASM>
+    <MASM Include="Lives.asm">
+      <Filter>src\pac man</Filter>
+    </MASM>
+    <MASM Include="PacMan.asm">
+      <Filter>src\pac man</Filter>
+    </MASM>
+    <MASM Include="Score.asm">
+      <Filter>src\pac man</Filter>
+    </MASM>
+    <MASM Include="Speed.asm">
+      <Filter>src\pac man</Filter>
+    </MASM>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Defines.inc">
+      <Filter>src\defines</Filter>
+    </None>
+    <None Include="GameMap.inc">
+      <Filter>src\defines</Filter>
+    </None>
+    <None Include="Structs.inc">
+      <Filter>src\defines</Filter>
+    </None>
+    <None Include="WinApi.inc">
+      <Filter>src\win</Filter>
+    </None>
+    <None Include="Windows.inc">
+      <Filter>src\win</Filter>
+    </None>
+    <None Include="Snd1.inc">
+      <Filter>src\sound</Filter>
+    </None>
+    <None Include="Snd2.inc">
+      <Filter>src\sound</Filter>
+    </None>
+    <None Include="Snd3.inc">
+      <Filter>src\sound</Filter>
+    </None>
+    <None Include="Snd4.inc">
+      <Filter>src\sound</Filter>
+    </None>
+    <None Include="Snd5.inc">
+      <Filter>src\sound</Filter>
+    </None>
+    <None Include="Snd6.inc">
+      <Filter>src\sound</Filter>
+    </None>
+    <None Include="Snd7.inc">
+      <Filter>src\sound</Filter>
+    </None>
+    <None Include="Snd8.inc">
+      <Filter>src\sound</Filter>
+    </None>
+    <None Include="Snd9.inc">
+      <Filter>src\sound</Filter>
+    </None>
+    <None Include="Snd10.inc">
+      <Filter>src\sound</Filter>
+    </None>
+    <None Include="Snd11.inc">
+      <Filter>src\sound</Filter>
+    </None>
+    <None Include="Utils.inc">
+      <Filter>src\utils</Filter>
+    </None>
+    <None Include="Screen.inc">
+      <Filter>src\screen</Filter>
+    </None>
+    <None Include="Game.inc">
+      <Filter>src\game</Filter>
+    </None>
+    <None Include="Sound.inc">
+      <Filter>src\sound</Filter>
+    </None>
+    <None Include="Position.inc">
+      <Filter>src\screen</Filter>
+    </None>
+    <None Include="EnergizerFlash.inc">
+      <Filter>src\game</Filter>
+    </None>
+    <None Include="GameMapFlash.inc">
+      <Filter>src\game</Filter>
+    </None>
+    <None Include="ScoreSprites.inc">
+      <Filter>src\game</Filter>
+    </None>
+    <None Include="Ghost.inc">
+      <Filter>src\ghost</Filter>
+    </None>
+    <None Include="GhostBlueTime.inc">
+      <Filter>src\ghost</Filter>
+    </None>
+    <None Include="GhostMazeLogic.inc">
+      <Filter>src\ghost</Filter>
+    </None>
+    <None Include="GhostMode.inc">
+      <Filter>src\ghost</Filter>
+    </None>
+    <None Include="GhostRelease.inc">
+      <Filter>src\ghost</Filter>
+    </None>
+    <None Include="PathMap.inc">
+      <Filter>src\ghost</Filter>
+    </None>
+    <None Include="BonusSymbol.inc">
+      <Filter>src\pac man</Filter>
+    </None>
+    <None Include="Level.inc">
+      <Filter>src\pac man</Filter>
+    </None>
+    <None Include="Lives.inc">
+      <Filter>src\pac man</Filter>
+    </None>
+    <None Include="PacMan.inc">
+      <Filter>src\pac man</Filter>
+    </None>
+    <None Include="Score.inc">
+      <Filter>src\pac man</Filter>
+    </None>
+    <None Include="Speed.inc">
+      <Filter>src\pac man</Filter>
+    </None>
+  </ItemGroup>
+</Project>
